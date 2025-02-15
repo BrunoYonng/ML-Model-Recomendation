@@ -1,8 +1,11 @@
 # ML-Model-Recomendation
 Smart Machine Learning Model Recomendation
 
-Objective
+# Objective:
+
 The Smart Machine Learning Model Recommendation system is designed to intelligently suggest the most suitable Machine Learning (ML) models based on the problem type and data characteristics. By leveraging a structured taxonomy of ML problems, data types, and model selection strategies, this system ensures optimal model recommendations for various real-world applications
+
+# Features:
 
 ✅ Problem Identification – Detects whether the task is regression, classification, clustering, dimensionality reduction, time series forecasting, or control optimization.
 
