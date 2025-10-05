@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "frontend": "cd frontend && npm run android",
+    "backend": "cd backend && nodemon server.js",
+    "recommender": "cd recommender && . venv/bin/activate && python app.py"
+  }
+}
