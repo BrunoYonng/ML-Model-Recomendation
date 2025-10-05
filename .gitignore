@@ -1,0 +1,50 @@
+# Node
+node_modules/
+npm-debug.log*
+.yarn/
+.pnpm-store/
+package-lock.json
+
+# React Native / Android
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/build/
+frontend/ios/build/
+frontend/ios/Pods/
+*.iml
+.idea/
+.gradle/
+local.properties
+# Buck
+.buckd/
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+
+# Misc
+.DS_Store
+.env
+.env.*
+*.log
+logs/
+
+# Python
+recommender/venv/
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/

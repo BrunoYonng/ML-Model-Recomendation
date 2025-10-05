@@ -1,0 +1,25 @@
+{
+  "name": "aproveita",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "cd frontend && npm run android",
+    "backend": "cd backend && nodemon server.js",
+    "recommender": "cd recommender && python app.py",
+    "dev": "concurrently -k \"npm:backend\" \"npm:recommender\" \"wait-on http-get://localhost:5000/api/health http-get://localhost:5001/health && npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.4.8",
+    "@react-navigation/native": "^7.1.18",
+    "@react-navigation/native-stack": "^7.3.27",
+    "axios": "^1.12.2",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-reanimated": "^4.1.2",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.16.0"
+  }
+}
