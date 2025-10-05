@@ -1,0 +1,27 @@
+{
+  "name": "aproveita",
+  "version": "1.0.0",
+  "description": "Sistema inteligente de recomendação de promoções para supermercados",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "recommender": "cd recommender && python app.py",
+    "frontend": "cd frontend && npm start",
+    "frontend:android": "cd frontend && npm run android",
+    "install:all": "npm run install:backend && npm run install:recommender && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:recommender": "cd recommender && pip install -r requirements.txt",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "keywords": [
+    "react-native",
+    "nodejs",
+    "flask",
+    "mongodb",
+    "ml",
+    "recommendations",
+    "grocery",
+    "promotions"
+  ],
+  "author": "",
+  "license": "MIT"
+}
